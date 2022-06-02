@@ -50,8 +50,8 @@ background: black;
         background: rgb(238, 230, 215);
         transition: all .5s;
         &:hover{
-            transform: translate(-.5vw, -.5vw);
-            box-shadow: 1vw 1vw 0vw rgb(244, 0, 163); 
+            transform: translate(-1vw, -1vw);
+            box-shadow: 2vw 2vw 0vw rgb(244, 0, 163); 
         }
         .img{
             height: 40vh;
@@ -64,7 +64,7 @@ background: black;
             border-radius: 50%;
             img{
                 height:inherit;
-                border-radius: 20vw;
+                border-radius: 50%;
                
             }
         }
