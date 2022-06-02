@@ -1,0 +1,24 @@
+* {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+.s1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+}
+
+.s1 h1 {
+  color: white;
+  font-size: 20vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+/*# sourceMappingURL=index.css.map */
