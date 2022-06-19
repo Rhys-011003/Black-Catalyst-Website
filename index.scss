@@ -1,15 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$theme:rgb(0, 140, 255);
 *{
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Exo', sans-serif;
     margin: 0%;
     padding: 0%;
 }
 body{
-    background:  rgb(10, 10, 10);
-    color: azure;
+    background:  linear-gradient(to top,hsl(180, 100%, 1%),rgb(0, 0, 0));
+    
 }
-.middle{
-    text-align: center;
-}
+
 .whiteText{
     color: rgb(255, 255, 255);
 }
@@ -21,29 +23,71 @@ align-items: center;
 justify-content: center;
 text-align: center;
 
-background: black;
-min-height: 100vh;
 
+min-height: 100vh;
+    
     h1{
-        
+        z-index: 2;
         font-size: 10vw;
-        line-height: 10vw;
+        line-height: 9vw;
         color: rgb(255, 255, 255);
        
-        
+       
     }  
    
 }
-
-.team{
-    
-    min-height: 100vh;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+.goal{
+    color: white;
+    text-shadow: 0 0 8px $theme;
+    font-weight: 200;
+    font-size: 4vw;
     display: flex;
-    flex-wrap: wrap;
+    height: 60vw;
     justify-content: center;
-    gap: 3vw;
+    align-items: center;
+    text-align: center;
+    
+}
+.team{
+    .tiles{
+        color: rgb(0, 0, 0);
+        min-height: 100vh;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3vw;
+    }
+    .title{
+        color: white;
+        text-shadow: 0 0 8px $theme;
+        font-weight: 200;
+        font-size: 4vw;
+        display: flex;
+        height: 10vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .middle{
+        position: absolute;
+        color: aliceblue;
+        text-align: center;
+        
+    }
+    
+    
+    a{
+        text-decoration: none;
+        &:visited{
+            color: inherit;
+        }
+        &:active{
+            color: inherit;
+        }
+
+    }
     .profile{
         
         padding: 2vw;
@@ -51,10 +95,10 @@ min-height: 100vh;
         height: 60vh;
         
         background: rgb(238, 230, 215);
-        transition: all .5s;
+        transition: all 1s;
         &:hover{
-            transform: translate(-1vw, -1vw);
-            box-shadow: 2vw 2vw 0vw rgb(244, 0, 163); 
+            
+            box-shadow: 0vw 0vw 2vw $theme; 
         }
         .img{
             height: 40vh;
@@ -85,9 +129,19 @@ min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    
     padding-top: 10vh;
     padding-bottom: 10vh;
    gap: 2vw;
 }
 
+@keyframes fade-in {
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
+    
+}
+@keyframes fade-_out {
+    0%{opacity: 100%;}
+    100%{opacity: 0%;}
+    
+}

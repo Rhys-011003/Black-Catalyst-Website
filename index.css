@@ -1,16 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Exo', sans-serif;
   margin: 0%;
   padding: 0%;
 }
 
 body {
-  background: #0a0a0a;
-  color: azure;
-}
-
-.middle {
-  text-align: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000505), to(black));
+  background: linear-gradient(to top, #000505, black);
 }
 
 .whiteText {
@@ -28,17 +25,36 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  background: black;
   min-height: 100vh;
 }
 
 .s1 h1 {
+  z-index: 2;
   font-size: 10vw;
-  line-height: 10vw;
+  line-height: 9vw;
   color: white;
 }
 
-.team {
+.goal {
+  color: white;
+  text-shadow: 0 0 8px #008cff;
+  font-weight: 200;
+  font-size: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.team .tiles {
+  color: black;
   min-height: 100vh;
   margin-top: 5vw;
   margin-bottom: 5vw;
@@ -53,20 +69,54 @@ body {
   gap: 3vw;
 }
 
+.team .title {
+  color: white;
+  text-shadow: 0 0 8px #008cff;
+  font-weight: 200;
+  font-size: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.team .middle {
+  position: absolute;
+  color: aliceblue;
+  text-align: center;
+}
+
+.team a {
+  text-decoration: none;
+}
+
+.team a:visited {
+  color: inherit;
+}
+
+.team a:active {
+  color: inherit;
+}
+
 .team .profile {
   padding: 2vw;
   border-radius: 2vw;
   height: 60vh;
   background: #eee6d7;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .team .profile:hover {
-  -webkit-transform: translate(-1vw, -1vw);
-          transform: translate(-1vw, -1vw);
-  -webkit-box-shadow: 2vw 2vw 0vw #f400a3;
-          box-shadow: 2vw 2vw 0vw #f400a3;
+  -webkit-box-shadow: 0vw 0vw 2vw #008cff;
+          box-shadow: 0vw 0vw 2vw #008cff;
 }
 
 .team .profile .img {
@@ -110,9 +160,44 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: black;
   padding-top: 10vh;
   padding-bottom: 10vh;
   gap: 2vw;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@-webkit-keyframes fade-_out {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes fade-_out {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
 }
 /*# sourceMappingURL=index.css.map */
