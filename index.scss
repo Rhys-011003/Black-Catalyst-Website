@@ -3,6 +3,10 @@
     margin: 0%;
     padding: 0%;
 }
+body{
+    background:  rgb(10, 10, 10);
+    color: azure;
+}
 .middle{
     text-align: center;
 }
@@ -12,14 +16,18 @@
 
 .s1{
 display: flex;
-min-height: 200vh;
+
 align-items: center;
+justify-content: center;
+text-align: center;
+
 background: black;
+min-height: 100vh;
 
     h1{
         
-        font-size: 20vw;
-        line-height: 20vw;
+        font-size: 10vw;
+        line-height: 10vw;
         color: rgb(255, 255, 255);
        
         
@@ -28,6 +36,7 @@ background: black;
 }
 
 .team{
+    
     min-height: 100vh;
     margin-top: 5vw;
     margin-bottom: 5vw;
@@ -40,7 +49,7 @@ background: black;
         padding: 2vw;
         border-radius: 2vw;
         height: 60vh;
-    
+        
         background: rgb(238, 230, 215);
         transition: all .5s;
         &:hover{

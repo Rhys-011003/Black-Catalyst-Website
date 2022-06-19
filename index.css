@@ -4,6 +4,11 @@
   padding: 0%;
 }
 
+body {
+  background: #0a0a0a;
+  color: azure;
+}
+
 .middle {
   text-align: center;
 }
@@ -16,26 +21,21 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 200vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
   background: black;
+  min-height: 100vh;
 }
 
 .s1 h1 {
-  font-size: 20vw;
-  line-height: 20vw;
+  font-size: 10vw;
+  line-height: 10vw;
   color: white;
-}
-
-.s1 h1:hover {
-  -webkit-animation: shake;
-          animation: shake;
-  -webkit-animation-duration: .001s;
-          animation-duration: .001s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
 }
 
 .team {
@@ -114,43 +114,5 @@
   padding-top: 10vh;
   padding-bottom: 10vh;
   gap: 2vw;
-}
-
-@-webkit-keyframes shake {
-  10%, 90% {
-    -webkit-transform: translate3d(-1px, 1px, 0);
-            transform: translate3d(-1px, 1px, 0);
-  }
-  20%, 80% {
-    -webkit-transform: translate3d(2px, -2, -10px) rotate(-5deg);
-            transform: translate3d(2px, -2, -10px) rotate(-5deg);
-  }
-  30%, 50%, 70% {
-    -webkit-transform: translate3d(-1px, -1px, 0) rotate(0.2deg);
-            transform: translate3d(-1px, -1px, 0) rotate(0.2deg);
-  }
-  40%, 60% {
-    -webkit-transform: translate3d(2px, 0, 5px);
-            transform: translate3d(2px, 0, 5px);
-  }
-}
-
-@keyframes shake {
-  10%, 90% {
-    -webkit-transform: translate3d(-1px, 1px, 0);
-            transform: translate3d(-1px, 1px, 0);
-  }
-  20%, 80% {
-    -webkit-transform: translate3d(2px, -2, -10px) rotate(-5deg);
-            transform: translate3d(2px, -2, -10px) rotate(-5deg);
-  }
-  30%, 50%, 70% {
-    -webkit-transform: translate3d(-1px, -1px, 0) rotate(0.2deg);
-            transform: translate3d(-1px, -1px, 0) rotate(0.2deg);
-  }
-  40%, 60% {
-    -webkit-transform: translate3d(2px, 0, 5px);
-            transform: translate3d(2px, 0, 5px);
-  }
 }
 /*# sourceMappingURL=index.css.map */
