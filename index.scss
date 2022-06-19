@@ -121,7 +121,8 @@ min-height: 100vh;
             font-size: 5vh;
         }
         h4{
-            font-size: 2vh;
+            font-size: 3vh;
+            font-weight: 100;
             margin-top: -4vh;
         }
     }
@@ -139,6 +140,10 @@ min-height: 100vh;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
         .talent{
             background-color: black;
             height: 20vw;

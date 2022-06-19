@@ -141,7 +141,8 @@ body {
 }
 
 .team .profile h4 {
-  font-size: 2vh;
+  font-size: 3vh;
+  font-weight: 100;
   margin-top: -4vh;
 }
 
@@ -176,6 +177,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.work .tiles a {
+  text-decoration: none;
+  color: white;
 }
 
 .work .tiles .talent {
