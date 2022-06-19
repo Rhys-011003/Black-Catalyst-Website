@@ -17,13 +17,7 @@ align-items: center;
 background: black;
 
     h1{
-        &:hover{
-            animation: shake;
-            animation-duration: .001s;
-            animation-iteration-count: infinite;
-          
-            
-        }
+        
         font-size: 20vw;
         line-height: 20vw;
         color: rgb(255, 255, 255);
@@ -88,20 +82,3 @@ background: black;
    gap: 2vw;
 }
 
-@keyframes shake {
-    10%, 90% {
-      transform: translate3d(-1px, 1px, 0);
-    }
-    
-    20%, 80% {
-      transform: translate3d(2px, -2, -10px)rotate(-5deg);
-    }
-  
-    30%, 50%, 70% {
-      transform: translate3d(-1px, -1px, 0)rotate(.2deg);
-    }
-  
-    40%, 60% {
-      transform: translate3d(2px, 0,5px);
-    }
-  }
