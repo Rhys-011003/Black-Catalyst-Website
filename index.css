@@ -33,17 +33,37 @@ body {
   font-size: 10vw;
   line-height: 9vw;
   color: white;
+  color: white;
+  text-shadow: 0 0 6vw #008cff;
 }
 
 .goal {
   color: white;
-  text-shadow: 0 0 8px #008cff;
+  text-shadow: 0 0 1vw #008cff;
   font-weight: 200;
   font-size: 4vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 60vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  text-shadow: 0 0 1vw #008cff;
+  font-weight: 200;
+  font-size: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -69,24 +89,6 @@ body {
   gap: 3vw;
 }
 
-.team .title {
-  color: white;
-  text-shadow: 0 0 8px #008cff;
-  font-weight: 200;
-  font-size: 4vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 10vw;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-
 .team .middle {
   position: absolute;
   color: aliceblue;
@@ -95,23 +97,16 @@ body {
 
 .team a {
   text-decoration: none;
-}
-
-.team a:visited {
-  color: inherit;
-}
-
-.team a:active {
-  color: inherit;
+  color: white;
 }
 
 .team .profile {
   padding: 2vw;
   border-radius: 2vw;
   height: 60vh;
-  background: #eee6d7;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  background: black;
+  -webkit-transition: all .6s;
+  transition: all .6s;
 }
 
 .team .profile:hover {
@@ -150,7 +145,45 @@ body {
   margin-top: -4vh;
 }
 
-.pastWork {
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.work .tiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2vw;
+  color: aliceblue;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work .tiles .talent {
+  background-color: black;
+  height: 20vw;
+  width: 20vw;
+  font-size: 4vw;
+  border-radius: 2vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,9 +193,36 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  gap: 2vw;
+  text-align: center;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.work .tiles .talent:hover {
+  -webkit-box-shadow: 0vw 0vw 2vw #008cff;
+          box-shadow: 0vw 0vw 2vw #008cff;
+}
+
+.end {
+  margin-top: 5vw;
+  height: 30vh;
+  background: black;
+  padding-left: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.end a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 1vh #008cff;
+  font-weight: 100;
+  font-size: 4vh;
+  line-height: 6vh;
 }
 
 @-webkit-keyframes fade-in {

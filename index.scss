@@ -31,6 +31,11 @@ min-height: 100vh;
         font-size: 10vw;
         line-height: 9vw;
         color: rgb(255, 255, 255);
+        
+        color: white;
+        text-shadow: 0 0 6vw $theme;
+        
+        
        
        
     }  
@@ -38,11 +43,23 @@ min-height: 100vh;
 }
 .goal{
     color: white;
-    text-shadow: 0 0 8px $theme;
+    text-shadow: 0 0 1vw $theme;
     font-weight: 200;
     font-size: 4vw;
     display: flex;
     height: 60vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.title{
+    color: white;
+    text-shadow: 0 0 1vw $theme;
+    font-weight: 200;
+    font-size: 4vw;
+    display: flex;
+    height: 10vw;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -59,17 +76,7 @@ min-height: 100vh;
         justify-content: center;
         gap: 3vw;
     }
-    .title{
-        color: white;
-        text-shadow: 0 0 8px $theme;
-        font-weight: 200;
-        font-size: 4vw;
-        display: flex;
-        height: 10vw;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+   
     .middle{
         position: absolute;
         color: aliceblue;
@@ -80,12 +87,7 @@ min-height: 100vh;
     
     a{
         text-decoration: none;
-        &:visited{
-            color: inherit;
-        }
-        &:active{
-            color: inherit;
-        }
+        color: rgb(255, 255, 255);
 
     }
     .profile{
@@ -94,8 +96,8 @@ min-height: 100vh;
         border-radius: 2vw;
         height: 60vh;
         
-        background: rgb(238, 230, 215);
-        transition: all 1s;
+        background: rgb(0, 0, 0);
+        transition: all .6s;
         &:hover{
             
             box-shadow: 0vw 0vw 2vw $theme; 
@@ -124,15 +126,54 @@ min-height: 100vh;
         }
     }
 }
-
-.pastWork{
+.work{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-   gap: 2vw;
+    text-align: center;
+    .tiles{
+        display: flex;
+        gap: 2vw;
+        color: aliceblue;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .talent{
+            background-color: black;
+            height: 20vw;
+            width: 20vw;
+            font-size: 4vw;
+            border-radius: 2vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: all .6s;
+            &:hover{
+                box-shadow: 0vw 0vw 2vw $theme;  
+            }
+
+        }
+    }
+}
+.end{
+    margin-top: 5vw;
+    height: 30vh;
+    background: black;
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+    a{
+        text-decoration: none;
+        
+        color: white;
+        text-shadow: 0 0 1vh $theme;
+        font-weight: 100;
+        font-size: 4vh;
+        line-height: 6vh;
+               
+    }
 }
 
 @keyframes fade-in {
