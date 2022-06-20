@@ -24,7 +24,7 @@ body {
   line-height: 9vw;
   color: rgb(255, 255, 255);
   color: white;
-  text-shadow: 0 0 6vw rgb(0, 140, 255);
+  text-shadow: 0 0 6vw rgb(255, 255, 255);
 }
 
 .goal {
@@ -131,10 +131,7 @@ body {
     -webkit-animation: HeadMove 8s ease 0s infinite;
             animation: HeadMove 8s ease 0s infinite;
     font-size: 20vw;
-    line-height: 10vw;
-  }
-  .s1 h1 span {
-    text-shadow: 0 0 6vw rgb(255, 0, 170);
+    line-height: 18vw;
   }
 
   .goal {

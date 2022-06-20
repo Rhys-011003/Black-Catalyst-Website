@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 $theme:rgb(0, 140, 255);
-$theme2:rgb(255, 0, 170);
+$theme2:rgb(255, 255, 255);
 $theme3:rgb(255, 60, 0);
 *{
     font-family: 'Exo', sans-serif;
@@ -35,7 +35,7 @@ text-align: center;
         color: rgb(255, 255, 255);
         
         color: white;
-        text-shadow: 0 0 6vw $theme;
+        text-shadow: 0 0 6vw $theme2;
         
         
        
@@ -154,11 +154,8 @@ text-align: center;
         h1{
             animation: HeadMove 8s ease 0s infinite;
             font-size: 20vw;
-            line-height: 10vw;
-            span{
-                text-shadow: 0 0 6vw $theme2;    
-                
-            }
+            line-height: 18vw;
+            
         }
     }
     .goal{
