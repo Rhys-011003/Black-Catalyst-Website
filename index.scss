@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 $theme:rgb(0, 140, 255);
-$theme2:rgb(255, 255, 255);
+$theme2:rgb(255, 0, 255);
 $theme3:rgb(255, 60, 0);
 *{
     font-family: 'Exo', sans-serif;
@@ -25,7 +25,14 @@ align-items: center;
 justify-content: center;
 text-align: center;
 
-
+    a{
+        top: 0;
+        position: absolute;
+        width: 100vw;
+        video{
+            width: 100vw;
+        }
+    }
 
     
     h1{
@@ -35,7 +42,7 @@ text-align: center;
         color: rgb(255, 255, 255);
         
         color: white;
-        text-shadow: 0 0 6vw $theme;
+        text-shadow: 0 0 3vw $theme;
         
         
        

@@ -19,12 +19,20 @@ body {
   justify-content: center;
   text-align: center;
 }
+.s1 a {
+  top: 0;
+  position: absolute;
+  width: 100vw;
+}
+.s1 a video {
+  width: 100vw;
+}
 .s1 h1 {
   z-index: 2;
   line-height: 9vw;
   color: rgb(255, 255, 255);
   color: white;
-  text-shadow: 0 0 6vw rgb(0, 140, 255);
+  text-shadow: 0 0 3vw rgb(0, 140, 255);
 }
 
 .goal {
