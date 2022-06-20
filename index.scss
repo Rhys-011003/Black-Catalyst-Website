@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 $theme:rgb(0, 140, 255);
+$theme2:rgb(255, 0, 170);
+$theme3:rgb(255, 60, 0);
 *{
     font-family: 'Exo', sans-serif;
     margin: 0%;
@@ -24,11 +26,11 @@ justify-content: center;
 text-align: center;
 
 
-min-height: 100vh;
+
     
     h1{
         z-index: 2;
-        font-size: 10vw;
+        
         line-height: 9vw;
         color: rgb(255, 255, 255);
         
@@ -90,42 +92,7 @@ min-height: 100vh;
         color: rgb(255, 255, 255);
 
     }
-    .profile{
-        
-        padding: 2vw;
-        border-radius: 2vw;
-        height: 60vh;
-        
-        background: rgb(0, 0, 0);
-        transition: all .6s;
-        &:hover{
-            
-            box-shadow: 0vw 0vw 2vw $theme; 
-        }
-        .img{
-            height: 40vh;
-            width: 40vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: .5vw;
-            background: black;
-            border-radius: 50%;
-            img{
-                height:inherit;
-                border-radius: 50%;
-               
-            }
-        }
-        h1{
-            font-size: 5vh;
-        }
-        h4{
-            font-size: 3vh;
-            font-weight: 100;
-            margin-top: -4vh;
-        }
-    }
+    
 }
 .work{
     display: flex;
@@ -181,13 +148,124 @@ min-height: 100vh;
     }
 }
 
-@keyframes fade-in {
-    0%{opacity: 0%;}
-    100%{opacity: 100%;}
+@media (max-width:435px) {
+    .s1{
+        min-height: 80vh;
+        h1{
+            animation: HeadMove 10s ease 0s infinite;
+            font-size: 20vw;
+            line-height: 10vw;
+            span{
+                text-shadow: 0 0 6vw $theme2;    
+                
+            }
+        }
+    }
+    .goal{
+        
+        font-size: 8vw;
+    }
+    .team{
+        
+        .title{
+            padding-top: 80vw;
+            font-size: 10vw;
+        }
+        .tiles{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .profile{
+                margin-top: 8vw;
+                transition: box-shadow 1s;
+                &:hover{
+                    box-shadow: 0 0 5vw $theme;
+                }
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5vw;
+                min-height: 40vh;
+                background: rgb(0, 0, 0);
+                img{
+                    width: 75vw;
+                    padding: 5vw;
+                    border-radius: 50%;
+                }
+                h4{
+                    font-weight: 100;
+                }
+
+            }
+        }
+        
+           
+    }
+    .end{
+        height: fit-content;
+        .contact{
+            padding-top: 1vh;
+            a{
+                line-height: 4vh;
+              font-size: 2vh;  
+            }
+            
+        }
+    }
     
 }
-@keyframes fade-_out {
-    0%{opacity: 100%;}
-    100%{opacity: 0%;}
+
+@media (min-width:435px){
+    .s1{
+        min-height: 100vh;
+        h1{
+            font-size: 10vw;
+        }
+    }
+
+
+    .profile{
+        
+        padding: 2vw;
+        border-radius: 2vw;
+        height: 60vh;
+        
+        background: rgb(0, 0, 0);
+        transition: all .6s;
+        &:hover{
+            
+            box-shadow: 0vw 0vw 2vw $theme; 
+        }
+        .img{
+            height: 40vh;
+            width: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: .5vw;
+            background: black;
+            border-radius: 50%;
+            img{
+                height:inherit;
+                border-radius: 50%;
+               
+            }
+        }
+        h1{
+            font-size: 5vh;
+        }
+        h4{
+            font-size: 3vh;
+            font-weight: 100;
+            margin-top: -4vh;
+        }
+    }
+}
+@keyframes HeadMove {
+    0% ,100%{transform: translateY(0vh);}
+    50%{transform: translateY(2vh);}
     
 }

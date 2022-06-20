@@ -1,212 +1,109 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   margin: 0%;
   padding: 0%;
 }
 
 body {
-  background: -webkit-gradient(linear, left bottom, left top, from(#000505), to(black));
-  background: linear-gradient(to top, #000505, black);
+  background: linear-gradient(to top, hsl(180deg, 100%, 1%), rgb(0, 0, 0));
 }
 
 .whiteText {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .s1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  min-height: 100vh;
 }
-
 .s1 h1 {
   z-index: 2;
-  font-size: 10vw;
   line-height: 9vw;
+  color: rgb(255, 255, 255);
   color: white;
-  color: white;
-  text-shadow: 0 0 6vw #008cff;
+  text-shadow: 0 0 6vw rgb(0, 140, 255);
 }
 
 .goal {
   color: white;
-  text-shadow: 0 0 1vw #008cff;
+  text-shadow: 0 0 1vw rgb(0, 140, 255);
   font-weight: 200;
   font-size: 4vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 60vw;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .title {
   color: white;
-  text-shadow: 0 0 1vw #008cff;
+  text-shadow: 0 0 1vw rgb(0, 140, 255);
   font-weight: 200;
   font-size: 4vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 10vw;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .team .tiles {
-  color: black;
+  color: rgb(0, 0, 0);
   min-height: 100vh;
   margin-top: 5vw;
   margin-bottom: 5vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 3vw;
 }
-
 .team .middle {
   position: absolute;
   color: aliceblue;
   text-align: center;
 }
-
 .team a {
   text-decoration: none;
-  color: white;
-}
-
-.team .profile {
-  padding: 2vw;
-  border-radius: 2vw;
-  height: 60vh;
-  background: black;
-  -webkit-transition: all .6s;
-  transition: all .6s;
-}
-
-.team .profile:hover {
-  -webkit-box-shadow: 0vw 0vw 2vw #008cff;
-          box-shadow: 0vw 0vw 2vw #008cff;
-}
-
-.team .profile .img {
-  height: 40vh;
-  width: 40vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: .5vw;
-  background: black;
-  border-radius: 50%;
-}
-
-.team .profile .img img {
-  height: inherit;
-  border-radius: 50%;
-}
-
-.team .profile h1 {
-  font-size: 5vh;
-}
-
-.team .profile h4 {
-  font-size: 3vh;
-  font-weight: 100;
-  margin-top: -4vh;
+  color: rgb(255, 255, 255);
 }
 
 .work {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
 .work .tiles {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 2vw;
   color: aliceblue;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-
 .work .tiles a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
-
 .work .tiles .talent {
   background-color: black;
   height: 20vw;
   width: 20vw;
   font-size: 4vw;
   border-radius: 2vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  -webkit-transition: all .6s;
-  transition: all .6s;
+  transition: all 0.6s;
 }
-
 .work .tiles .talent:hover {
-  -webkit-box-shadow: 0vw 0vw 2vw #008cff;
-          box-shadow: 0vw 0vw 2vw #008cff;
+  box-shadow: 0vw 0vw 2vw rgb(0, 140, 255);
 }
 
 .end {
@@ -214,56 +111,136 @@ body {
   height: 30vh;
   background: black;
   padding-left: 3vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .end a {
   text-decoration: none;
   color: white;
-  text-shadow: 0 0 1vh #008cff;
+  text-shadow: 0 0 1vh rgb(0, 140, 255);
   font-weight: 100;
   font-size: 4vh;
   line-height: 6vh;
 }
 
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0%;
+@media (max-width: 435px) {
+  .s1 {
+    min-height: 80vh;
   }
-  100% {
-    opacity: 100%;
+  .s1 h1 {
+    -webkit-animation: HeadMove 10s ease 0s infinite;
+            animation: HeadMove 10s ease 0s infinite;
+    font-size: 20vw;
+    line-height: 10vw;
   }
-}
+  .s1 h1 span {
+    text-shadow: 0 0 6vw rgb(255, 0, 170);
+  }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0%;
+  .goal {
+    font-size: 8vw;
   }
-  100% {
-    opacity: 100%;
-  }
-}
 
-@-webkit-keyframes fade-_out {
-  0% {
-    opacity: 100%;
+  .team .title {
+    padding-top: 80vw;
+    font-size: 10vw;
   }
-  100% {
-    opacity: 0%;
+  .team .tiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-}
+  .team .tiles .profile {
+    margin-top: 8vw;
+    transition: box-shadow 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vw;
+    min-height: 40vh;
+    background: rgb(0, 0, 0);
+  }
+  .team .tiles .profile:hover {
+    box-shadow: 0 0 5vw rgb(0, 140, 255);
+  }
+  .team .tiles .profile img {
+    width: 75vw;
+    padding: 5vw;
+    border-radius: 50%;
+  }
+  .team .tiles .profile h4 {
+    font-weight: 100;
+  }
 
-@keyframes fade-_out {
-  0% {
-    opacity: 100%;
+  .end {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
-  100% {
-    opacity: 0%;
+  .end .contact {
+    padding-top: 1vh;
+  }
+  .end .contact a {
+    line-height: 4vh;
+    font-size: 2vh;
   }
 }
-/*# sourceMappingURL=index.css.map */
+@media (min-width: 435px) {
+  .s1 {
+    min-height: 100vh;
+  }
+  .s1 h1 {
+    font-size: 10vw;
+  }
+
+  .profile {
+    padding: 2vw;
+    border-radius: 2vw;
+    height: 60vh;
+    background: rgb(0, 0, 0);
+    transition: all 0.6s;
+  }
+  .profile:hover {
+    box-shadow: 0vw 0vw 2vw rgb(0, 140, 255);
+  }
+  .profile .img {
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vw;
+    background: black;
+    border-radius: 50%;
+  }
+  .profile .img img {
+    height: inherit;
+    border-radius: 50%;
+  }
+  .profile h1 {
+    font-size: 5vh;
+  }
+  .profile h4 {
+    font-size: 3vh;
+    font-weight: 100;
+    margin-top: -4vh;
+  }
+}
+@-webkit-keyframes HeadMove {
+  0%, 100% {
+    transform: translateY(0vh);
+  }
+  50% {
+    transform: translateY(2vh);
+  }
+}
+@keyframes HeadMove {
+  0%, 100% {
+    transform: translateY(0vh);
+  }
+  50% {
+    transform: translateY(2vh);
+  }
+}/*# sourceMappingURL=index.css.map */
