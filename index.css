@@ -125,7 +125,7 @@ body {
 
 @media (max-width: 435px) {
   .s1 {
-    min-height: 80vh;
+    min-height: 100vh;
   }
   .s1 h1 {
     -webkit-animation: HeadMove 8s ease 0s infinite;
