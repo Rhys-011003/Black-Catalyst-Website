@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to top, hsl(180deg, 100%, 1%), rgb(0, 0, 0));
+  background: linear-gradient(to top, hsl(180deg, 100%, 2%), rgb(0, 0, 0));
 }
 
 .whiteText {
@@ -128,8 +128,8 @@ body {
     min-height: 80vh;
   }
   .s1 h1 {
-    -webkit-animation: HeadMove 10s ease 0s infinite;
-            animation: HeadMove 10s ease 0s infinite;
+    -webkit-animation: HeadMove 8s ease 0s infinite;
+            animation: HeadMove 8s ease 0s infinite;
     font-size: 20vw;
     line-height: 10vw;
   }

@@ -10,7 +10,7 @@ $theme3:rgb(255, 60, 0);
     padding: 0%;
 }
 body{
-    background:  linear-gradient(to top,hsl(180, 100%, 1%),rgb(0, 0, 0));
+    background:  linear-gradient(to top,hsl(180, 100%, 2%),rgb(0, 0, 0));
     
 }
 
@@ -152,7 +152,7 @@ text-align: center;
     .s1{
         min-height: 80vh;
         h1{
-            animation: HeadMove 10s ease 0s infinite;
+            animation: HeadMove 8s ease 0s infinite;
             font-size: 20vw;
             line-height: 10vw;
             span{
