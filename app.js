@@ -24,4 +24,8 @@ function newLoad(){
     var randomNumber=Math.floor(Math.random()*(loading.length));
     document.getElementById('loadingDisp').innerHTML=loading[randomNumber]
 }
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
 newLoad();
+
