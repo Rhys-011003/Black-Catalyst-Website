@@ -11,7 +11,13 @@ var loading=[
     'Editing Content',
     'You can totally do this',
     'Don’t tell people your plans. Show them your results',
-    'When nothing goes right, go left'
+    'When nothing goes right, go left',
+    'On a wild goose chase',
+    '😙',
+    '❤️',
+    '😬',
+    '🥸',
+    '🤪'
 ]
 
 function newLoad(){
