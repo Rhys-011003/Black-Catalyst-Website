@@ -6,13 +6,14 @@ window.addEventListener('load',()=>{
 var loading=[
     'Loading Awesomeness',
     'Jumping Dimensions',
-    'The Future Loading',
+    'The Future Is Loading',
     'Editing Content',
-    'You can totally do this',
-    'When nothing goes right, go left',
-    'On a wild goose chase',
+    'You Can Totally Do This',
+    'When Nothing Goes Right, Go Left',
+    'On A Wild Goose Chase',
     'All Toasters Toast Toast!',
-    'Chicken?'
+    'Chicken?',
+    'Made By Your Mom'
 ]
 
 function newLoad(){
