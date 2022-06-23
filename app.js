@@ -10,14 +10,16 @@ var loading=[
     'I\'m Hungry',
     'Editing Content',
     'You can totally do this',
-    'Don’t tell people your plans. Show them your results',
     'When nothing goes right, go left',
     'On a wild goose chase',
     '😙',
     '❤️',
     '😬',
     '🥸',
-    '🤪'
+    '🤪',
+    'Please don’t waste your life on useless websites.',
+    'All Toasters Toast Toast!',
+    'I love you guys. Not enough to die for you, but enough to give you a sandwich if I have too much sandwich'
 ]
 
 function newLoad(){
