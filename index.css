@@ -122,12 +122,23 @@ body {
   display: flex;
   align-items: center;
 }
+.end ol {
+  list-style: none;
+}
 .end a {
   text-decoration: none;
   color: white;
   text-shadow: 0 0 1vh rgb(0, 140, 255);
   font-weight: 100;
   font-size: 4vh;
+  line-height: 6vh;
+}
+.end .txt {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 1vh rgb(0, 140, 255);
+  font-weight: 100;
+  font-size: 2vh;
   line-height: 6vh;
 }
 

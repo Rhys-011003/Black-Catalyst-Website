@@ -137,6 +137,9 @@ text-align: center;
     }
 }
 .end{
+    ol{
+        list-style: none;
+    }
     margin-top: 5vw;
     height: 30vh;
     background: black;
@@ -152,6 +155,15 @@ text-align: center;
         font-size: 4vh;
         line-height: 6vh;
                
+    }
+    .txt{
+        text-decoration: none;
+        
+        color: white;
+        text-shadow: 0 0 1vh $theme;
+        font-weight: 100;
+        font-size: 2vh;
+        line-height: 6vh;
     }
 }
 
@@ -273,3 +285,6 @@ text-align: center;
     50%{transform: translateY(2vh);}
     
 }
+
+
+  
