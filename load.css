@@ -10,9 +10,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index:3;
+    z-index:10;
     background: rgb(0, 0, 0);
-    transition: opacity .4s ease 2s;
+    transition: opacity .4s ease 3s;
     text-shadow: 0vw 0vw 1vw rgb(0, 140, 255); 
 }
 .preload-finish{

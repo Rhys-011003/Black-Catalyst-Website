@@ -6,28 +6,18 @@ window.addEventListener('load',()=>{
 var loading=[
     'Loading Awesomeness',
     'Jumping Dimensions',
-    'Future Loading',
-    'I\'m Hungry',
+    'The Future Loading',
     'Editing Content',
     'You can totally do this',
     'When nothing goes right, go left',
     'On a wild goose chase',
-    '😙',
-    '❤️',
-    '😬',
-    '🥸',
-    '🤪',
-    'Please don’t waste your life on useless websites.',
     'All Toasters Toast Toast!',
-    'I love you guys. Not enough to die for you, but enough to give you a sandwich if I have too much sandwich'
+    'Chicken?'
 ]
 
 function newLoad(){
     var randomNumber=Math.floor(Math.random()*(loading.length));
     document.getElementById('loadingDisp').innerHTML=loading[randomNumber]
 }
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
 newLoad();
 

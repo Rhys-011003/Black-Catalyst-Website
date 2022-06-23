@@ -13,10 +13,30 @@ body{
     background:  linear-gradient(to top,hsl(180, 100%, 2%),rgb(0, 0, 0));
     
 }
-
-.whiteText{
-    color: rgb(255, 255, 255);
+nav{
+    background: rgb(0, 0, 0);
+    position: fixed;
+    width: 100vw;
+    padding: 1vw;
+    z-index: 3;
+    opacity: 20%;
+    display: flex;  
+    gap: 1em;
+    padding-left: 1em;
+    transition: opacity 1s;
+    &:hover{
+        opacity: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.6em;
+        
+    }
+    
 }
+
+
 
 .s1{
 display: flex;
