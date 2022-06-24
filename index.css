@@ -199,7 +199,7 @@ nav a {
     box-shadow: 0 0 5vw rgb(0, 140, 255);
   }
   .team .tiles .profile img {
-    width: 75vw;
+    width: 65vw;
     padding: 5vw;
     border-radius: 50%;
   }
@@ -249,7 +249,7 @@ nav a {
     border-radius: 50%;
   }
   .profile .img img {
-    height: inherit;
+    height: 40vh;
     border-radius: 50%;
   }
   .profile h1 {
