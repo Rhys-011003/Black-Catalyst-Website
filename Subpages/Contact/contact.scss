@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+form{
+    background: rgb(0, 0, 0);
+    height: 40rem;
+    width: 50rem;
+    border-radius: 2vw;
+    box-shadow: 0 0 1vw blue;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+   justify-content: space-between;
+}
+.Message{
+    height: 10em;
+    &::placeholder{
+        padding: 2em;
+        
+    }
+}
